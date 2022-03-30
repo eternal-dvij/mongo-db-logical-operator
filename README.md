@@ -8,7 +8,7 @@ db.companies.find({"$or":[{"$and":[{"founded_year":{"$eq":2004}},{"$or":[{"categ
 
 To complete this exercise connect to your Atlas cluster using the in-browser IDE space.
 
-How many companies in the <database>.<document-name> dataset were 
+How many companies in the (database).(document-name) dataset were 
 
 either founded in 2004
 [and] either have the social category_code [or] web category_code,
